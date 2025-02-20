@@ -1,4 +1,4 @@
-let score = "Haris"
+let score = 33
 
 console.log(typeof score);
 console.log(typeof (score));
@@ -12,7 +12,7 @@ console.log(valueInNumber);
 // "33abc" => NaN
 // true => 1;false => 0;
 
-let isloggedIn = Symbol
+let isloggedIn = false
  
 let booleanisloggedIn = Boolean(isloggedIn);
 console.log( booleanisloggedIn);
@@ -20,7 +20,10 @@ console.log( booleanisloggedIn);
 // "" => false 
 // "Haris" => true
 
-let someNumber = 33
-let stringNumber = String(someNumber)
+// let someNumber = 33
+// let stringNumber = String(someNumber)
 
-console.log( stringNumber);
+// console.log( stringNumber);
+
+// ***********Operations **********
+
