@@ -28,3 +28,28 @@ const myFunction = function(){
 console.log(typeof outsidetemp);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+// *************stack and heap examples********************
+
+
+let myzindagidot = "harisdotcom"
+
+let anothername = myzindagidot
+anothername= "chaiaurcode"
+
+console.log(myzindagidot);
+console.log(anothername);
+
+let userOne = {
+    email: "haris@google.com",
+    easypaisa:"hi@.com"
+}
+let userTwo = userOne
+
+userTwo.email="owais@google.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
+
+
