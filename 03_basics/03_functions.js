@@ -46,7 +46,11 @@ function userNamemessage(username){//this is a shortcut...we can use exclamation
 
 //userNamemessage("Haris")//this doesn't print the value bcz,it has returned the value..
 //console.log(userNamemessage("Haris"));//this prints the value..
-console.log(userNamemessage("Haris"));// this gives us undefined value nor null.
+//console.log(userNamemessage("Haris"));// this gives us undefined value nor null.
+
+
+ 
+ 
 
 
 
