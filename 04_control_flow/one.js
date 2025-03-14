@@ -46,10 +46,29 @@ const loggedInFromGoogle = false
 const loggedInFromEmail = true
 
 if (userloggedIn && debitcard ) {
-    console.log("Allow to Access");
+   // console.log("Allow to Access"); // this is called AND operator....
 }
 
 if (loggedInFromEmail || loggedInFromGoogle) {
-    console.log("user logged in");
+   // console.log("user logged in");     // this is called OR operator........
     
 }
+
+// Another operator is Nullish coalescing operator (??); Null , Undefined.
+
+let val1;
+val1 = 5 ?? 10    // it will gives us the first value.....
+val1 = null ?? 10  // now, it gives us the second value to removes the error from code...agr kisi waja sy value 0 ajye ya null ho then ,
+// it will assign the second value.....
+val1 = undefined ?? 20 // same as above....
+val1 = null ?? 10 ?? 30 // now this will assign the first value...this all the process is used for Errors Handeling.....
+
+console.log(val1);
+
+// Another is Terniary Operator....
+// condition ? true : false
+
+const iceprice= 100
+iceprice >= 80 ? console.log("true"): console.log("false");
+
+
